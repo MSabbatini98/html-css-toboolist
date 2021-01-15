@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+/* header */
+header {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+.logo-testo {
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.logo-img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+/* /header */
+
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* top bar */
+.azioni {
+    border-bottom: 2px solid #f6f8f9;
+    padding: 15px 30px;
+}
+
+.bottone {
+    padding: 5px 15px ;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+}
+.bottone-pieno {
+    background-color: blue;
+    color: #fff;
+}
+
+/* tasks */
+.tasks {
+    padding: 30px;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    margin: 10px 0;
+}
+
+.cerchio {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    line-height: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+.fatto {
+    font-weight: bold;
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+.sfatto {
+    font-weight: bold;
+    border: 1px solid red;
+    color: red;
+}
+/* tags */
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 20px;
+    color: #fff;
+}
+.tag_blue {
+    background-color: #45abea;
+}
+.tag_purple {
+    background-color: #9c72e4;
+}
+.tag_ugly {
+    background-color: #b0c926;
+}
+.tag_orange {
+    background-color: #f29e33;
+}
+.tag_pink {
+    background-color: #d863a1;
+}
+.tag_green{
+    background-color: #64c0a9;
+}
